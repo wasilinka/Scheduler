@@ -1,0 +1,70 @@
+.header, .container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    background: linear-gradient(#e66465, #9198e5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.inputField {
+    padding: 30px;
+    width: 50%;
+    border: none;
+
+}
+
+.btn {
+    padding: 20px;
+    background: #00ced1;
+    border: none;
+}
+
+body {
+    background-image: url(https://cdn.glitch.global/6f2cab56-4693-4f2c-b46e-a949f7d2a77f/sean.jpg?v=1712172420664);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #00ced1;
+}
+
+.toDoAdded {
+    background: #00ced1;
+    list-style-type: none;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    color:#000000;
+    font-size: 20px;
+    border-bottom: 1px solid#15130f;
+}
+
+.toDoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toDoCompleted {
+    background: #c9c98b;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 3s ease;  
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+}
